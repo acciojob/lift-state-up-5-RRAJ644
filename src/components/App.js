@@ -11,7 +11,7 @@ const App = () => {
       <h1>Parent component</h1>
       <LoginForm
         isLoggedIn={isLoggedIn}
-        onLogin={() => setIsLoggedIn(!isLoggedIn)}
+        onLogin={() => setIsLoggedIn(true)}
       />
     </div>
   )
