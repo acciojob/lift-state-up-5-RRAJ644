@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Parent component</h1>
+      <h1>Parent Component</h1>
       <LoginForm
         isLoggedIn={isLoggedIn}
         onLogin={() => setIsLoggedIn(true)}
