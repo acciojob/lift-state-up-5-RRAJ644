@@ -42,11 +42,11 @@ const LoginForm = ({ isLoggedIn, onLogin }) => {
             <input
               type='password'
               name='password'
-              value={formData.password}
+              value={formData?.password}
               onChange={handleChange}
             />
           </div>
-          <button type='submit'>Log In</button>
+          <button type='submit'>Login</button>
         </form>
       )}
     </div>
